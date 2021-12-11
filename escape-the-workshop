@@ -1,0 +1,38 @@
+<div class="workshopBackground"></div>
+<div class="header">
+  <a>Stage 1: Escape the Workshop</a>
+</div> 
+<iframe style="align: center;" 
+src="https://docs.google.com/forms/d/e/1FAIpQLSc20ei9eHlqhfCtiuJJ9DO4LCAOII9c99QJ-L7Fi_TDOhkVzA/viewform?embedded=true" 
+width="600px" height="4650px" frameborder="0" marginheight="20px" marginwidth="20px">Loading…</iframe>
+
+<style>
+  body{  
+  background:url(https://cdn.staticcrate.com/stock-hd/effects/slow-falling-vertically-and-wiggling-prev-full.png), 
+  url('https://www.pcinvasion.com/wp-content/uploads/2020/08/Wasteland-3-Clown-Museum-Santas-Workshop-Elf-on-a-Shelf-sidequest-1a.jpg');
+  height:1000px;
+}
+
+  .header{
+  text-align: center;
+  width: 500px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  margin-bottom: 80px;
+  outline: 10px double;
+  outline-offset: 5px;
+  color:white;
+  font-family: "Fantasy", papyrus, serif;  
+  font-size: 60px;
+  text-shadow: 2px 2px brown;
+  }
+  
+  .form{
+    
+  
+  }
+
+}</style>
+
+<style>
