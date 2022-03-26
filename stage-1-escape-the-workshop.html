@@ -1,0 +1,93 @@
+<iframe width="0" height="0" src='https://www.youtube.com/embed/o_PBJSBzLmo?autoplay=1&start=0' title="YouTube video player" frameborder="0" allow="autoplay"></iframe>
+
+<title>Stage 1</title>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<div class="workshopBackground"></div>
+
+<div class="header">
+  <a>Stage 1: Escape the Workshop</a>
+</div> 
+
+<div class="form">
+  <br>  
+  <iframe style="align: center;" 
+  src="https://docs.google.com/forms/d/e/1FAIpQLSc20ei9eHlqhfCtiuJJ9DO4LCAOII9c99QJ-L7Fi_TDOhkVzA/viewform?embedded=true" 
+  width="700px" height="3000" frameborder="0" margin-top=20px >Loading…</iframe>
+</div>
+
+<style>
+  body{  
+  background:url(https://cdn.staticcrate.com/stock-hd/effects/slow-falling-vertically-and-wiggling-prev-full.png), 
+  url('https://www.pcinvasion.com/wp-content/uploads/2020/08/Wasteland-3-Clown-Museum-Santas-Workshop-Elf-on-a-Shelf-sidequest-1a.jpg');
+  height:1000px;
+  }
+  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+  .header{
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 30px;
+  margin-bottom: 80px;
+  
+  width: 500px;
+  outline: 10px double;
+  outline-offset: 5px;
+  text-align: center;
+
+  color:white;
+  font-family: "Fantasy", papyrus, serif;  
+  font-size: 60px;
+  text-shadow: 2px 2px brown;
+  }
+  
+  .form{
+  margin-left: auto; 
+  margin-right: auto;
+  width: 700px;
+  border: 5px dotted white;
+  border-radius: 5px;
+  }
+
+</style>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
